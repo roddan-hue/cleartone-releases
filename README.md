@@ -27,7 +27,7 @@ Instead of paying recurring monthly SaaS subscriptions or dealing with heavy bro
 
 - **Sub-300ms Corrections**: Ultra-low latency responses powered by Groq LPU chips (`Qwen 2.5` / `LLaMA 3.3`).
 - **Discreet Floating Pill**: A non-intrusive badge appears right beside your highlighted text. Click to inspect suggestions without losing document focus.
-- **Global Hotkey (`Win + Shift + G`)**: Conflict-free shortcut designed to work inside Word, Excel, Outlook, and text editors.
+- **Global Hotkey (`Alt + G`)**: Conflict-free shortcut designed to work inside Word, Excel, Outlook, and text editors.
 - **Privacy & Security First**:
   - Automatically suppresses itself in masked password boxes (`control.IsPassword`).
   - Ignores credential managers (1Password, Bitwarden, KeePass, Windows Security).
@@ -50,7 +50,7 @@ ClearTone runs quietly in your Windows system tray without getting in your way:
 
 1. **Highlight Text**: Select any text in Word, Outlook, Excel, OneNote, Notepad, Slack, or your web browser.
 2. **Trigger the Assistant**:
-   - **Hotkey**: Press `Win + Shift + G` to immediately open the review card.
+   - **Hotkey**: Press `Alt + G` to immediately open the review card.
    - **Floating Badge**: Click the small green badge that appears beside your highlighted text.
 3. **Choose Your Tone**:
    - *Spelling & Grammar*: Fixes errors while keeping your exact vocabulary.
@@ -87,7 +87,7 @@ ClearTone uses Groq's high-speed inference engine under a Bring-Your-Own-Key (BY
 
 ### Step 4: Verify It's Working
 - Open Notepad or Microsoft Word and type a sentence with a typo (e.g., *“Their is many problem with this report.”*).
-- Highlight the sentence and press **`Win + Shift + G`**.
+- Highlight the sentence and press **`Alt + G`**.
 - The ClearTone card will pop up with the corrected text in under a second. Click **Apply & Replace** to see it update live.
 
 ---
