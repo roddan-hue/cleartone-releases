@@ -44,16 +44,51 @@ Instead of paying recurring monthly SaaS subscriptions or dealing with heavy bro
 
 ---
 
-## Installation & Setup
+## 🕹️ How It Works
 
-1. **Download**: Grab the latest `ClearTone.exe` from the [Releases](https://github.com/roddan-hue/cleartone-releases/releases/latest) tab.
-2. **Launch**: Run `ClearTone.exe`.
-3. **Connect API Key**:
-   - On initial startup, a setup dialog will appear.
-   - Enter your free API key from [Groq Cloud Console](https://console.groq.com/keys) (starts with `gsk_`).
-4. **Start Writing**:
-   - Highlight any text in Word, Outlook, browser, or editor.
-   - Press **`Win + Shift + G`** or click the floating pill to refine.
+ClearTone runs quietly in your Windows system tray without getting in your way:
+
+1. **Highlight Text**: Select any text in Word, Outlook, Excel, OneNote, Notepad, Slack, or your web browser.
+2. **Trigger the Assistant**:
+   - **Hotkey**: Press `Win + Shift + G` to immediately open the review card.
+   - **Floating Badge**: Click the small green badge that appears beside your highlighted text.
+3. **Choose Your Tone**:
+   - *Spelling & Grammar*: Fixes errors while keeping your exact vocabulary.
+   - *Plain English*: Renders text into clear, Grade 6–8 readability.
+   - *Professional*: Polishes sentences for executive and formal communication.
+   - *Casual & Friendly*: Great for chat, messaging, and informal emails.
+   - *Concise*: Strips unnecessary filler and redundant words.
+4. **Apply Changes**: Click **Apply & Replace** to update your document automatically, or copy the refined text to your clipboard.
+
+---
+
+## Step-by-Step Initial Setup Guide
+
+Setting up ClearTone takes less than 2 minutes and requires zero payment details.
+
+### Step 1: Download ClearTone
+- Go to the [Releases](https://github.com/roddan-hue/cleartone-releases/releases/latest) tab.
+- Download `ClearTone.exe`.
+- Move the file to any folder you prefer (e.g., `C:\Tools\ClearTone` or your `Desktop`).
+
+### Step 2: Get a Free Groq API Key
+ClearTone uses Groq's high-speed inference engine under a Bring-Your-Own-Key (BYOK) model:
+1. Visit [console.groq.com](https://console.groq.com/keys) and sign up/log in (Google, GitHub, or email).
+2. Click **Create API Key**.
+3. Name your key (e.g., `ClearTone-Desktop`) and copy the generated key string (starts with `gsk_`).
+
+> *Note: Groq provides a generous free tier with fast response times and zero upfront billing required.*
+
+### Step 3: First Launch & Configuration
+1. Double-click `ClearTone.exe` to run it.
+2. A setup window titled **ClearTone - API Configuration** will appear on your screen.
+3. Paste your Groq API key (`gsk_...`) into the field and click **Save & Continue**.
+4. ClearTone will initialize and sit quietly in your Windows System Tray (near your clock).
+
+### Step 4: Verify It's Working
+- Open Notepad or Microsoft Word and type a sentence with a typo (e.g., *“Their is many problem with this report.”*).
+- Highlight the sentence and press **`Win + Shift + G`**.
+- The ClearTone card will pop up with the corrected text in under a second. Click **Apply & Replace** to see it update live.
 
 ---
 
