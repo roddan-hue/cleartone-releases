@@ -15,7 +15,7 @@
 
 ---
 
-## 💡 What is ClearTone?
+## What is ClearTone?
 
 **ClearTone** is a lightweight, privacy-focused Windows companion that brings instant grammar correction and tone refinement directly to your native apps—Microsoft Word, Outlook, Excel, OneNote, Slack, Teams, and web browsers.
 
@@ -25,7 +25,7 @@ Instead of paying recurring monthly SaaS subscriptions or dealing with heavy bro
 
 ## Features
 
-- **Sub-300ms Corrections**: Ultra-low latency responses powered by Groq LPU chips (`Qwen 2.5` / `LLaMA 3.3`).
+- **Sub-300ms Corrections**: Ultra-low latency responses powered by Groq.
 - **Discreet Floating Pill**: A non-intrusive badge appears right beside your highlighted text. Click to inspect suggestions without losing document focus.
 - **Global Hotkey (`Alt + G`)**: Conflict-free shortcut designed to work inside Word, Excel, Outlook, and text editors.
 - **Privacy & Security First**:
@@ -44,7 +44,7 @@ Instead of paying recurring monthly SaaS subscriptions or dealing with heavy bro
 
 ---
 
-## 🕹️ How It Works
+## How It Works
 
 ClearTone runs quietly in your Windows system tray without getting in your way:
 
